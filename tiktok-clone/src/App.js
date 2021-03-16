@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <h1>Full-Stack MERN Tik-Tok App</h1>
-      <div className="app_vidoes">
+      <div className="app__videos">
         <Video />
         <Video />
       </div>

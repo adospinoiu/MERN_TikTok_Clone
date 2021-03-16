@@ -10,7 +10,7 @@ function Video() {
             <video
             className="video__player"
             loop
-            src="https://pianorayk.files.wordpress.com/2018/04/example.jpeg"></video>
+            src="https://www.tiktok.com/@dewey_haftu/video/6939743884759141637"></video>
             {/* <iframe width="1280" height="720" src="https://www.youtube.com/embed/vz9n-2W33WY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 
             {/* VideoFooter */}
