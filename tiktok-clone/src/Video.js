@@ -5,12 +5,10 @@ import "./Video.css";
 function Video() {
     return (
         <div className="video">
-            <h1>Video Import</h1>
-            
             <video
             className="video__player"
             loop
-            src="https://v16m.tiktokcdn.com/f0b00a77e4a06d0924b4a84ccf21520f/5f50173b/vidoe/tos/useast2a/tos-useast2a-ve-0068c003/17791fe438be4573994ff56ebd54a762/?a=1233&br=2618&bt=1309&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=202009021605210101902092163013B973&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=anRnbGY6bHlsdzMzNzczM0ApOzU3aWRlNWQ6N2Q5OjM4NmdzNWRwZ2liaTBfLS1eMTZzczYwYzBjMGIwMy9gMzVeLjM6Yw%3D%3D&vl=&vr="></video>
+            src="https://v16-web.tiktok.com/video/tos/useast2a/tos-useast2a-pve-0068/1c2df6365b1f408ba07999ecb0704306/?a=1988&br=3214&bt=1607&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&expire=1615921834&l=202103161310310101901891371E1C0557&lr=tiktok_m&mime_type=video_mp4&pl=0&policy=2&qs=0&rc=anc0Om50OTdnNDMzNDczM0ApOmU4NDg7Mzs6N2ZmOWc4NWc2Ni1kay9sZzRgLS1iMTZzczIyYzAtMjNeYC0vLl9eMjQ6Yw%3D%3D&signature=5fe2b4b9edff5a51f83c4ec2457510a0&tk=tt_webid_v2&vl=&vr="></video>
             {/* <iframe width="1280" height="720" src="https://www.youtube.com/embed/vz9n-2W33WY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 
             {/* VideoFooter */}
