@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import "./Video.css";
 
 
 function Video() {
+    const [playing, setPlaying] = useState(false);
+    const videoRef = useRef(null);
+
+    const handleVideoPress = () => {
+        // if video is playing
+        // stop it
+
+        // otherwise if its not playing
+        // play it
+    }
+
     return (
         <div className="video">
             <video
+            onClick={handleVideoPress}
             className="video__player"
             loop
-            src="https://v16-web.tiktok.com/video/tos/useast2a/tos-useast2a-pve-0068/1c2df6365b1f408ba07999ecb0704306/?a=1988&br=3214&bt=1607&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&expire=1615921834&l=202103161310310101901891371E1C0557&lr=tiktok_m&mime_type=video_mp4&pl=0&policy=2&qs=0&rc=anc0Om50OTdnNDMzNDczM0ApOmU4NDg7Mzs6N2ZmOWc4NWc2Ni1kay9sZzRgLS1iMTZzczIyYzAtMjNeYC0vLl9eMjQ6Yw%3D%3D&signature=5fe2b4b9edff5a51f83c4ec2457510a0&tk=tt_webid_v2&vl=&vr="></video>
-            {/* <iframe width="1280" height="720" src="https://www.youtube.com/embed/vz9n-2W33WY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+            ref={videoRef}
+            src="https://v25-us.tiktokcdn.com/d61f5a0e571b59fffb16db13bc904ec3/605107cd/video/tos/useast2a/tos-useast2a-pve-0068/aff95613715a4beb806b06dfeaa91040/?a=1233&br=3800&bt=1900&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=20210316133136010189049225531E1E0A&lr=tiktok_m&mime_type=video_mp4&pl=0&qs=0&rc=Mzl4OmVyPHA3MzMzOjczM0ApaWY3Mzo4OGQ7Nzc0OjtlN2dfamdlc2c0YnJgLS00MTZzcy40Ml9hXmBeL19iLzEwXmE6Yw%3D%3D&vl=&vr="></video>
 
             {/* VideoFooter */}
             {/* VideoSidebar */}
