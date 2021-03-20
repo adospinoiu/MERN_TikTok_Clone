@@ -9,4 +9,6 @@
 
 #4 Install Material-Ui on the front-end (i.e. in the tiktok-clone folder)
 
+#5 Install react-ticker on the front-end
+
 #4 Complete the front-end first ... then start work on the back-end
