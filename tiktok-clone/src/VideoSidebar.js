@@ -3,10 +3,18 @@ import "./VidoeSidebar.css";
 
 function VideoSidebar() {
     return (
-        <div>
-            
+        <div className="videoSidebar">
+            <div className="videoSidebar__button">
+
+            </div>
+            <div className="videoSidebar__button">
+                
+            </div>
+            <div className="videoSidebar__button">
+                
+            </div>
         </div>
     )
 }
 
-export default VideoSidebar
+export default VideoSidebar;

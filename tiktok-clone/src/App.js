@@ -9,14 +9,6 @@ function App() {
         <Video />
         <Video />
       </div>
-      
-      {/* app container
-        videos
-        <Video />
-        <Video />
-        <Video />
-        <Video /> */}
-
     </div>
   );
 }
