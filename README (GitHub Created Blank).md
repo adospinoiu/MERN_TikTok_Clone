@@ -11,4 +11,6 @@
 
 #5 Install react-ticker on the front-end
 
+#6 
+
 #4 Complete the front-end first ... then start work on the back-end
