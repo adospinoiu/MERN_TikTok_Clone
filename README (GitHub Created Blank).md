@@ -18,3 +18,7 @@
 #8 Add to the package.json file the 'script' to "start": "node server.js"
 
 #9 Install Express and Mongoose by running npm i express mongoose to establish the server. Installed in tiktok-backend folder
+
+#10 On MongoDB website ... create new project, create cluster (free option) ... Give Project Name, however Cluster Name (can be left as default Cluster0)
+
+#11 Make sure to add (to the back-end package.json file) the line of "type": "module". This will give the ability to use ES6 (i.e. import) otherwise, on the back-end would have to use 'const' and 'require'
