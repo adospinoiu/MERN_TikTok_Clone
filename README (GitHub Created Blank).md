@@ -16,3 +16,5 @@
 #7 NPM Init to create the package.json in the tiktok-backend folder
 
 #8 Add to the package.json file the 'script' to "start": "node server.js"
+
+#9 Install Express and Mongoose by running npm i express mongoose to establish the server. Installed in tiktok-backend folder
