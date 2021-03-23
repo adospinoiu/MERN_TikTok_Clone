@@ -2,6 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 import Data from "./data.js";
 
+
+
 // app config
 const app = express();
 const port = 9000;
@@ -9,6 +11,11 @@ const port = 9000;
 //middleware
 
 // DB config
+const connection_url = 'mongodb+srv://controller:oq1asa16sGWO6w2r@cluster0.iirmq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+
+mongoose.connect(connection_url, {
+
+})
 
 //api endpoints
 app.get('/', (req, res) => {

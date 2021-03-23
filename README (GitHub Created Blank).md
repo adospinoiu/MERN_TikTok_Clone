@@ -28,3 +28,10 @@
 #13 Create the first api endpoint: get (simple '/') on server.js that sends back hello world
 
 #14 Create the second api endpoint: get (/v1/posts) on server.js that pulls the data from the data.js file
+
+#15 On Mongod Atlas set-up the 'Database Access' by adding a new user and saving the password
+
+#16 On Mongod Atlass set-up the 'Network Access' and the connect on the cluster by grabbing the url
+
+#17 Set-up the DB connection on server.js
+
