@@ -14,7 +14,9 @@ const port = 9000;
 const connection_url = 'mongodb+srv://controller:oq1asa16sGWO6w2r@cluster0.iirmq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mongoose.connect(connection_url, {
-
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true
 })
 
 //api endpoints
