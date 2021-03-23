@@ -26,3 +26,5 @@
 #12 Install nodemon on the back-end to help with the development
 
 #13 Create the first api endpoint: get (simple '/') on server.js that sends back hello world
+
+#14 Create the second api endpoint: get (/v1/posts) on server.js that pulls the data from the data.js file
