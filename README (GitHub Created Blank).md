@@ -25,4 +25,4 @@
 
 #12 Install nodemon on the back-end to help with the development
 
-#13 Create the first api endpoint (simple '/') that sends back hello world
+#13 Create the first api endpoint: get (simple '/') on server.js that sends back hello world
