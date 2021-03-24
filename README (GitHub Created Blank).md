@@ -35,3 +35,5 @@
 
 #17 Set-up the DB connection on server.js
 
+#18 Create dbModel.js file and create a Schema to tell the database what to expect
+
