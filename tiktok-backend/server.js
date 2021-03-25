@@ -3,8 +3,6 @@ import mongoose from "mongoose";
 import Data from "./data.js";
 import Videos from './dbModel.js';
 
-
-
 // app config
 const app = express();
 const port = 9000;
@@ -22,14 +20,28 @@ mongoose.connect(connection_url, {
 })
 
 //api endpoints
+// This end-point is to test the server is working
 app.get('/', (req, res) => {
     res.status(200).send('Hello World')
 });
 
+// This end-point retrieves the data from the database
 app.get('/v1/posts', (req, res) => {
     res.status(200).send(Data)
 })
 
+app.get('/v2/posts', (req, res) => {
+    Videos.find({}, (err, data) => {
+        if (err) {
+            res.status(500). send(err);
+        } else {
+            res.status(200).send(data);
+        }
+    });
+});
+
+
+// This end-point sends data to the database
 app.post('/v2/posts', (req, res) => {
     const dbVideos = req.body;
 
