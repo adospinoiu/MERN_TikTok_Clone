@@ -39,3 +39,5 @@
 
 #19 Create data.js file that has a mock-up of what data will look like
 
+#20 Update server.js file and add another API end-point (the post) to test pushing data to database
+
