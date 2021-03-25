@@ -37,3 +37,5 @@
 
 #18 Create dbModel.js file and create a Schema to tell the database what to expect
 
+#19 Create data.js file that has a mock-up of what data will look like
+
