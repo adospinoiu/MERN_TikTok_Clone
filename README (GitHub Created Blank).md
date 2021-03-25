@@ -41,3 +41,4 @@
 
 #20 Update server.js file and add another API end-point (the post) to test pushing data to database
 
+#21 Updater server.js file and add an API end-point (the get) to retrieve the data from the database
