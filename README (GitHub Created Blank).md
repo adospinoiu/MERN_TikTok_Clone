@@ -44,3 +44,7 @@
 #21 Update server.js file and add an API end-point (the get) to retrieve the data from the database
 
 #22 Set-up the app on Heroku.com to initialize where the back-end will get deployed
+
+#23 Problems encountered deploying back-end to Heroku
+    1) had to do 'heroku run npm install' in the terminal on the back-end
+    2) had to have 'process.env.PORT || 9000' in the server.js file on the back-end
