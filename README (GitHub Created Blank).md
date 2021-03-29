@@ -49,4 +49,6 @@
     1) had to do 'heroku run npm install' in the terminal on the back-end
     2) had to have 'process.env.PORT || 9000' in the server.js file on the back-end
 
-#24 Back-end now deployed to Heroku. Next deploy the front-end to Firebase
+#24 Back-end now deployed to Heroku. 
+
+$25 The front-end will be deployed to Firebase
