@@ -55,3 +55,5 @@
 #24 Back-end now deployed to Heroku. 
 
 $25 The front-end will be deployed to Firebase
+
+#26 Install axios on the front-end to be able to fetch the vidoes
