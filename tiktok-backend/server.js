@@ -3,6 +3,10 @@ import mongoose from "mongoose";
 import Data from "./data.js";
 import Videos from './dbModel.js';
 
+
+// require('dotenv').config();
+console.log(process.env);
+
 // app config
 const app = express();
 const port = process.env.PORT || 9000;
