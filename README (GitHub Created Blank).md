@@ -56,4 +56,4 @@
 
 $25 The front-end will be deployed to Firebase
 
-#26 Install axios on the front-end to be able to fetch the vidoes
+#26 Install axios on the front-end to be able to fetch the videos

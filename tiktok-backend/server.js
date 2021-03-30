@@ -15,11 +15,11 @@ const port = process.env.PORT || 9000;
 app.use(express.json());
 
 // Security warning!
-// app.use((req, res, next) => {
-//     res.setHeaders('Access-Control-Allow-Origin', '*'),
-//     res.setHeaders('Access-Control-Allow-Headers', '*'),
-//     next()
-// })
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*'),
+    res.setHeader('Access-Control-Allow-Headers', '*'),
+    next()
+})
 
 // DB config
 const connection_url = 'mongodb+srv://controller:oq1asa16sGWO6w2r@cluster0.iirmq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
