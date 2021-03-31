@@ -53,17 +53,17 @@ app.get('/v2/posts', (req, res) => {
 
 
 // This end-point sends data to the database
-app.post('/v2/posts', (req, res) => {
-    const dbVideos = req.body;
+// app.post('/v2/posts', (req, res) => {
+//     const dbVideos = req.body;
 
-    Videos.create(dbVideos, (err, data) => {
-        if (err) {
-            res.status(500).send(err)
-        } else {
-            res.status(201).send(data)
-        }
-    })
-})
+//     Videos.create(dbVideos, (err, data) => {
+//         if (err) {
+//             res.status(500).send(err)
+//         } else {
+//             res.status(201).send(data)
+//         }
+//     })
+// })
 
 // listen
 app.listen(port, () => {
