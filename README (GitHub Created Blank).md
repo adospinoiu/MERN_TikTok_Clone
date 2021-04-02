@@ -57,3 +57,7 @@
 $25 The front-end will be deployed to Firebase
 
 #26 Install axios on the front-end to be able to fetch the videos
+
+#27 Install firebase-tools on the front-end
+
+#28 The project is now complete and hosted on the internet. Front-end on Firebase and Back-end on Heroku
